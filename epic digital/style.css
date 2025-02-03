@@ -1,0 +1,312 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white: white;
+    --black: black;
+    --red_top_bottom: #b31010;
+    --main_red: #7e040c;
+}
+
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+header {
+    width: 100%;
+    background-color:var(--red_top_bottom);
+    height: 4rem;
+}
+
+.divs {
+    width: 83%;
+    margin: auto;
+    margin-bottom: 13rem;
+    padding-bottom: 7rem;
+    background-color: var(--main_red);
+    align-items: center;
+}
+
+.div_home {
+    width: 83%;
+    margin: auto;
+    margin-bottom: 3rem;
+    padding-bottom: 7rem;
+    align-items: center;
+}
+
+.pdf {
+    color: var(--white);
+    height: 1rem;
+    background-color: var(--main_red);
+    font-size: 180%;
+    margin-top: 1rem;
+}
+
+.pdf:hover {
+    cursor: pointer;
+    background-color: #980d0d;
+    text-decoration: underline;
+}
+
+#logo {
+    width: 90%;
+    margin-left: -.5rem;
+    margin-top: 5.2rem;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.icons_position {
+    width: 10%;
+}
+
+.icon {
+    width: 28%;
+    margin-top: 0.7rem;
+    background-color: rgb(255, 38, 38);
+    padding: 0.3em;
+    border-radius: 1rem;
+    margin-left: 0.5rem;
+}
+
+.icon:hover {
+    background-color: rgb(215, 27, 27);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.position {
+    margin-left: 7rem;
+}
+
+.txt_header {
+    margin: 1rem;
+    margin-top: 13rem;
+    font-size: 155%;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--red_top_bottom);
+    border-radius: 0.5rem;
+}
+
+.txt_header:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #980d0d;
+    color: rgb(215, 215, 215);
+}
+
+.img {
+    margin-top: 2rem;
+    width: 80%;
+    margin-left: 8rem;
+}
+
+.title {
+    color: var(--white);
+    font-size: 250%;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 2.5rem;
+    font-weight: bold;
+    cursor: default;
+}
+
+.sub_title {
+    color: var(--white);
+    font-size: 190%;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid var(--black);
+    margin-right: 3rem;
+    font-weight: bold;
+    cursor: default;
+}
+
+.txt {
+    color: var(--white);
+    font-size: 135%;
+    margin: auto 3rem;
+    margin-top: 2rem;
+    line-height: 2rem;
+    cursor: default;
+}
+
+.boite_tourne {
+    width: 80%;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    margin-bottom: -1rem;
+    cursor: pointer;
+}
+
+.card_container {
+    margin-left: 2.5rem;
+}
+
+.cards {
+    width: 15%;
+    margin-bottom: 1rem;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+}
+
+.cards:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transform: translateY(-1rem);
+}
+
+form {
+    margin-left: 5rem;
+    margin-top: 3rem;
+    background-color: var(--red_top_bottom);
+    width: 85%;
+    padding: 3rem;
+    font-size: 120%;
+    color: var(--white);
+}
+
+input {
+    margin-left: 1rem ;
+    padding: 0.3rem;
+    height: 1.3rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--white);
+    font-size: 85%;
+}
+
+#text {
+    width: 20rem;
+    height: 10rem;
+}
+
+.formbtn {
+    padding-bottom: 1.2rem;
+}
+
+.formbtn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgb(223, 222, 222);
+}
+
+
+footer {
+    justify-content: center;
+    width: 100%;
+}
+
+.palierdonations {
+    background-color: #95060f;
+    width: 100%;
+    list-style: none;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.donations {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    margin-right: 12rem;
+}
+
+.footer_position {
+    background-color:var(--red_top_bottom);
+    font-size: 120%;
+    height: 3rem;
+    justify-items: center;
+    padding-top: 1rem;
+}
+
+.case {
+    width: 9rem;
+    padding : 0.5rem;;
+    border: 3px solid var(--white);
+    color: var(--white);
+    height: 9rem;
+    margin-left: 3rem;
+    font-size: 125%;
+    background-color:var(--red_top_bottom);
+}
+
+.case:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #980d0d;
+    border: 3px solid var(--red_top_bottom);
+}
+
+.position_title_donation {
+    width: 100%;
+    justify-items: center;
+    cursor: default;
+}
+
+.title_donation {
+    color: var(--white);
+    font-size: 200%;
+    margin-bottom: 2rem;
+}
+
+.txt_donation {
+    color: var(--white);
+    font-size: 130%;
+    line-height: 2rem;
+    margin:auto 7rem;
+    margin-left: 7.5rem;
+}
+  
+
+@media screen and (max-width: 800px) {
+
+    .header {
+        width: 100%;
+        align-items: center;
+        display: flex;
+    }
+
+    .div_home {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 3rem;
+        padding-bottom: 7rem;
+        align-items: center;
+    }
+    
+    .divs {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 3rem;
+        padding-bottom: 7rem;
+        align-items: center;
+    }
+
+    .palierdonations {
+        width: 100%;
+    }
+
+}
